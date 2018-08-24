@@ -1,0 +1,69 @@
+.postHeader {
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 70px;
+    position: relative;
+}
+
+.postHeader > .userProfilePicture {
+    line-height: 68px;
+    padding: 10px;
+}
+
+.postHeader > .userProfilePicture > img { 
+    width: 40px;
+    border-radius: 50%;
+}
+
+.userNameTitle {
+    position: absolute;
+    top: 17px;
+    font-weight: 600;
+}
+
+.userLocation {
+    position: absolute;
+    left: 61px;
+    top: 35px;
+    font-size: 12px;
+}
+
+.postIconBar {
+    height: 50px;
+    background-color: white;
+}
+
+.postIcons{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.postIcons > li {
+    display: inline;
+    line-height: 3rem;
+    padding: 10px;
+}
+
+.rightIcon{
+    float: right;
+    padding: 10px;
+    line-height: 2rem;
+}
+
+.postCaption{
+    padding: 10px;
+    background-color: white;
+}
+
+.likes {
+    font-weight: 600;
+}
+
+.postUserName{
+    font-weight: bold;
+}
+
+.postUserName > span {
+    font-weight: normal;
+}
