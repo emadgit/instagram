@@ -1,0 +1,24 @@
+.profilePic{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.profilePic > img {
+    border-radius: 50%;
+    width:50px;
+}
+
+.profilePic > .userName {
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    font-weight: 700;
+}
+
+.profilePic > .actualName {
+    padding: 10px;
+    position: absolute;
+    top: 25px;
+    font-size: 13px;
+    color: #a09f9f;
+}

@@ -12,6 +12,10 @@ body {
     position: relative;
   }
 
+  .absolutePosition {
+    position: absolute
+  }
+
   .mt-50 {
     margin-top: 50px;
   }
